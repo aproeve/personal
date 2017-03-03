@@ -1,0 +1,177 @@
+.top-bar ul{
+  padding-top:5px;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+    display: block;
+    width: 0;
+    height: 0;
+    border: inset 6px;
+    content: '';
+    border-bottom-width: 0;
+    border-top-style: solid;
+    border-color: #ffffff transparent transparent;
+    right: 5px;
+    margin-top: -3px;
+}
+
+.menu-text {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  color: #aefc05;
+  line-height: normal;
+}
+
+.top-bar {
+  background-color: #303030;
+  height:64px;
+  padding: 0px;
+  font-family: 'Poiret One', cursive;
+}
+
+.top-bar ul {
+  background-color: #303030;
+}
+
+a:hover {
+  color:white;
+  background-color:none;
+}
+
+li>a {
+  text-decoration: none;
+  color: white;
+  border-top-color:white;
+}
+
+a::after {
+  border-color:white;
+}
+
+.is-drilldown-submenu-parent > a::after {
+  border-color:white;
+}
+
+
+$topbar-submenu-background {
+  color:white;
+  padding-top:10px;
+}
+
+a {
+  color:white;
+}
+
+.full-width {
+  max-width: 1400px;
+}
+
+.footer1 li{
+  list-style-type: none;
+}
+
+.footer2 li{
+  list-style-type: none;
+}
+
+.footer {
+  font-family: 'Poiret One', cursive;
+  background-color: #242426;
+  padding: 2rem 4rem;
+  text-align: center;
+  color: #fff;
+}
+.footer i {
+  font-family: 'Poiret One', cursive;
+  font-size: 100px;
+}
+
+.footer h4 {
+  font-family: 'Poiret One', cursive;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 2.5rem;
+  margin-bottom: 10px;
+}
+.footer p, .footer a {
+  font-weight: 300;
+  font-size: .8em;
+  color: #fff;
+}
+
+.hvr-fade{
+  padding-left:25vw;
+  padding-right:25vw;
+  padding-top:40vh;
+  padding-bottom:30vh;
+  height: 100vh;
+  width: 100vw;
+  background-color: #111111;
+  color: white;
+ font-family: 'Poiret One', cursive;
+  text-align: center;
+}
+
+.achievements {
+  padding-left:25vw;
+  padding-right:25vw;
+  padding-top:25vh;
+  padding-bottom:25vh;
+  height: 100vh;
+  width: 100vw;
+  background-color: #111111;
+  color: white;
+ font-family: 'Poiret One', cursive;
+  text-align: left;
+}
+
+.achievements h1 {
+   font-family: 'Poiret One', cursive;
+   font-weight:bold;
+}
+
+.me {
+  padding-left:25vw;
+  padding-right:25vw;
+  padding-top:25vh;
+  padding-bottom:25vh;
+  height: 100vh;
+  width: 100vw;
+  background-color: #111111;
+  color: white;
+ font-family: 'Poiret One', cursive;
+  text-align: left;
+}
+
+.me font {
+  color:#ff3f3f;
+}
+
+.gallery {
+  background-color:#f4df41;
+}
+
+.gallery img {
+  width:25vw;
+}
+
+.gallery-head {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color:#f44242;
+  height:65px;
+  margin:0px;
+  color:white;
+  font-size:4.5vh;
+}
+
+.achievements h4 {
+  font-family: 'Poiret One', cursive;
+  color: #e7f740;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase
+}
