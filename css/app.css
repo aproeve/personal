@@ -319,6 +319,7 @@ a {
 }
 
 .hvr-fade {
+  padding:0;
   display: inline-block;
   -webkit-transform: perspective(0px) translateZ(0);
   transform: perspective(0px) translateZ(0);
@@ -349,4 +350,10 @@ a {
 .hvr-sink:hover, .hvr-sink:focus, .hvr-sink:active {
   -webkit-transform: translateY(8px);
   transform: translateY(8px);
+}
+
+.embedded {
+  height:100vh;
+  width:50vw;
+  padding:0;
 }
