@@ -118,6 +118,12 @@ a {
   text-align: center;
 }
 
+.resumehero a {
+  color:white;
+}
+.resumehero a:hover {
+  color:black;
+}
 .resumehero img {
   height:100vh;
 }
