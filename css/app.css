@@ -104,6 +104,7 @@ a {
 }
 
 .mainhero{
+  display:block;
   padding-left:25vw;
   padding-right:25vw;
   padding-top:40vh;
@@ -258,7 +259,7 @@ a {
 }
 
 .mainhero {
-  display: inline-block;
+  display:block;
   -webkit-transform: perspective(0px) translateZ(0);
   transform: perspective(0px) translateZ(0);
   overflow: hidden;
